@@ -129,7 +129,13 @@ Personal site taken through a full audit pass — fabricated content stripped, v
 AWS isn't a badge on this profile — it's the storage layer in production code. **Something**'s upload pipeline runs through the AWS SDK v3 `S3Client` and `multer-s3`, with IAM-scoped credentials resolved from environment config and object keys generated per-request rather than per-upload — the kind of detail that only matters once real users are overwriting each other's files.
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=aws,nodejs,express,mongodb,jest&theme=dark" />
+
+<img height="28" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900"/>
+<img height="28" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=jest&logoColor=white"/>
+
 </div>
 
 <br/>
@@ -151,7 +157,14 @@ Git and GitHub for version control and review; Jira for planning and defect trac
 </table>
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=vite,git,github,jira,postman,npm&theme=dark" />
+
+<img height="28" src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm&logoColor=white"/>
+
 </div>
 
 <br/>
@@ -160,37 +173,45 @@ Git and GitHub for version control and review; Jira for planning and defect trac
 
 ## Stack
 
-<table>
-<tr>
-<td valign="top" width="25%">
+<table width="100%">
+<tr><td>
 
 **Frontend**
+<br/>
+<img height="28" src="https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img height="28" src="https://img.shields.io/badge/-Astro-1C1B2E?style=flat-square&logo=astro&logoColor=FF5D01"/>
+<img height="28" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img height="28" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
 
-<img src="https://skillicons.dev/icons?i=react,astro,ts,js,html,css&theme=dark" />
-
-</td>
-<td valign="top" width="25%">
+</td></tr>
+<tr><td>
 
 **Backend**
+<br/>
+<img height="28" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark" />
-
-</td>
-<td valign="top" width="25%">
+</td></tr>
+<tr><td>
 
 **Cloud & Testing**
+<br/>
+<img height="28" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900"/>
+<img height="28" src="https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=jest&logoColor=white"/>
 
-<img src="https://skillicons.dev/icons?i=aws,jest&theme=dark" />
-
-</td>
-<td valign="top" width="25%">
+</td></tr>
+<tr><td>
 
 **Deployment**
+<br/>
+<img height="28" src="https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+<img height="28" src="https://img.shields.io/badge/-Render-000000?style=flat-square&logo=render&logoColor=46E3B7"/>
+<img height="28" src="https://img.shields.io/badge/-Netlify-000000?style=flat-square&logo=netlify&logoColor=00C7B7"/>
 
-<img src="https://skillicons.dev/icons?i=vercel,render,netlify&theme=dark" />
-
-</td>
-</tr>
+</td></tr>
 </table>
 
 <br/>

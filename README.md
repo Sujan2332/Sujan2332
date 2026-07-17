@@ -2,19 +2,14 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=30&duration=3000&pause=1500&color=A78BFA&center=true&vCenter=true&random=false&width=600&height=50&lines=Sai+Sujan+S;Frontend+%26+Full-Stack+Engineer;Bengaluru%2C+India" alt="name typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&duration=3000&pause=1500&color=A78BFA&center=true&vCenter=true&width=680&height=50&lines=Sai+Sujan+S;Full-Stack+Engineer+%E2%80%94+React+%C2%B7+Node+%C2%B7+AWS;Bengaluru%2C+India" alt="typing animation" />
+
+<p><sub>Production commerce systems, real-time infrastructure, and interfaces built to be measured, not just shipped.</sub></p>
 
 <br/>
 
-<img src="https://img.shields.io/badge/-React-000000?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-<img src="https://img.shields.io/badge/-Astro-000000?style=flat-square&logo=astro&logoColor=BC52EE" alt="Astro"/>
-<img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/-Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=339933" alt="Node.js"/>
-
-<br/><br/>
-
 <a href="https://sai-sujan-s-portfolio.onrender.com/"><img src="https://img.shields.io/badge/PORTFOLIO-sai--sujan--s--portfolio.onrender.com-A78BFA?style=for-the-badge&logoColor=white" alt="Portfolio"/></a>
+<a href="https://github.com/Sujan2332"><img src="https://img.shields.io/badge/GITHUB-Sujan2332-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 </div>
 
@@ -24,64 +19,52 @@
 
 ## Profile
 
-I build production frontend systems for clients where the interface *is* the product — marketing sites measured on Core Web Vitals, checkout flows measured on conversion, dashboards measured on how fast a support rep can find what they need. React and Next.js for application surfaces, Astro when the win is shipping less JavaScript. TypeScript by default, not by request.
+My work sits at the point where frontend engineering meets production accountability — interfaces built by someone who also owns what happens when checkout breaks at scale. React and Astro depending on whether the win is interactivity or shipped-KB; Node and Express underneath when the frontend needs a backend that isn't someone else's black box; MongoDB when the data model is document-shaped and shouldn't pretend otherwise.
 
-The thread through both client work and personal projects is the same: real-time and asynchronous systems (Socket.IO chat infrastructure, a Puppeteer-driven Telegram bot that outlasts anti-bot defenses), and a refusal to ship a UI without also shipping the accessibility, SEO, and performance work around it. A portfolio isn't finished when the components render — it's finished when the Lighthouse score, the sitemap, and the reduced-motion state are all handled too.
-
-Currently building **Vastra Atelier**, an e-commerce UI for a luxury saree brand — full PLP/PDP/account coverage across a three-way light/dark/ivory theme system, which is a harder design problem than it sounds.
+The throughline across client work and personal projects: systems that have to be *correct under load*, not just correct in a demo. A checkout module doesn't get to fail quietly. A file-upload pipeline doesn't get to lose a user's photo because two requests raced. A chat app doesn't get to drop a message because the socket reconnected mid-send. That's the standard I build to whether the audience is a paying client or nobody but future-me.
 
 <br/>
 
-## Currently
+## Engineering Philosophy
 
-```
-role        Software Engineer — Frontend / Full-Stack
-stack       React · Next.js · Astro · TypeScript
-focus       real-time systems · e-commerce UI · client platform rebuilds
-exploring   theme architecture at scale, automation tooling
-status      open to Frontend / Full-Stack roles at product-focused teams
-```
+<table>
+<tr><td width="50%" valign="top">
+
+**Own the failure path, not just the happy path.**
+An upload pipeline is judged by what happens on a duplicate key, a dropped connection, or a malformed file — not by the demo where everything works.
+
+</td><td width="50%" valign="top">
+
+**The invisible work is the deliverable.**
+Accessibility, SEO metadata, reduced-motion states, and load-time budgets ship with the feature, not after it.
+
+</td></tr>
+<tr><td width="50%" valign="top">
+
+**State that's user-aware beats state that's generic.**
+File paths, cache keys, and access rules are derived from *who's asking*, not bolted on as an afterthought — cheaper to reason about, harder to get wrong.
+
+</td><td width="50%" valign="top">
+
+**A rebuild beats a patch when the foundation is the bug.**
+A migration that keeps a bad architecture just relocates the debt. Sometimes the ground-up rebuild is the faster path to done.
+
+</td></tr>
+</table>
 
 <br/>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2px"/>
 
-## Stack
+## Production & Commerce Engineering
 
-<table>
-<tr>
-<td valign="top" width="33%">
+Client-side production work, described at the level that's shareable outside an NDA:
 
-**Language & Framework**
+- **Checkout & account ownership at scale** — full module ownership on a large-scale retail platform: 800+ user stories delivered, 300+ defects resolved, across the account and checkout surfaces users actually complete purchases on.
+- **B2B SaaS marketing platform** — a 60+ page Astro build engineered around Core Web Vitals and technical SEO from the metadata layer up, not retrofitted after launch.
+- **Ground-up platform rebuild** — Astro/GCP, chosen deliberately over a migration once the existing foundation stopped being worth carrying forward.
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,astro,html,css&theme=dark" />
-
-</td>
-<td valign="top" width="33%">
-
-**Backend & Data**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase&theme=dark" />
-
-</td>
-<td valign="top" width="33%">
-
-**Tooling & Platform**
-
-<img src="https://skillicons.dev/icons?i=vite,tailwind,git,github,vercel,render&theme=dark" />
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## Architecture Philosophy
-
-- **Ship the constraint, not the feature.** A three-theme system or a Cloudflare-resilient scraper is designed around its hardest edge case first, then simplified — not the reverse.
-- **The invisible work is the deliverable.** Accessibility, SEO metadata, reduced-motion states, and load-time budgets are part of "done," not a follow-up pass.
-- **Real-time state is a first-class concern.** Chat, live tracking, and polling systems are built to degrade gracefully — reconnect, retry, and fail loud in logs, quiet in the UI.
-- **Rebuilds beat patch-jobs when the foundation is wrong.** A migration that keeps a bad architecture just moves the debt; sometimes the ground-up rebuild is the faster path.
+Recognized with a team Spot Award — first recipient across seniority levels on the team — and moved into a billing-critical role on the strength of that checkout work before the project was shelved following a company acquisition, not due to the engineering.
 
 <br/>
 
@@ -93,44 +76,44 @@ status      open to Frontend / Full-Stack roles at product-focused teams
 <tr>
 <td width="50%" valign="top">
 
+### <a href="https://github.com/Sujan2332/Something">Something</a>
+A full-stack social platform — profiles, media posts, likes, comments — with file storage engineered directly on AWS S3 rather than local disk.
+
+`React` `Node.js` `Express` `MongoDB` `AWS S3` `JWT`
+
+**Why it's interesting:** the S3 key strategy is context-aware, not a flat upload bucket. Signup-time uploads land in a temp path before the user record exists; post-auth profile photos resolve to a deterministic per-username key that overwrites in place. That distinction — generated key vs. looked-up key — is decided per-request based on auth state, using `multer-s3` streamed directly to an `S3Client`, with per-user identity resolved from Mongo before the object key is even generated.
+
+</td>
+<td width="50%" valign="top">
+
 ### <a href="https://github.com/Sujan2332/ChatSphere">Chat-Sphere</a>
 Real-time chat application rebuilt from a single Replit monorepo into a properly separated client/server architecture.
 
 `React` `Express` `MongoDB` `Socket.IO`
 
-Rebuilt the deployment topology, not just the code — resolved TypeScript and ESM interop issues that only surface once client and server stop sharing a process.
-
-</td>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/Sujan2332/BMS-Alerter">BMS-Alerter</a>
-A Telegram bot that watches BookMyShow for a specific film, theatre, and time window, and fires the moment tickets go live.
-
-`Node.js` `Puppeteer` `Telegram Bot API`
-
-The real engineering problem wasn't the bot logic — it was staying invisible to Cloudflare. Solved with stealth-mode headless Chrome running on a free-tier host.
+**Why it's interesting:** the hard part wasn't the socket logic — it was the deployment topology. Splitting a pnpm monorepo into independently deployable services surfaced TypeScript and ESM interop issues that only exist once client and server stop sharing a process boundary.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### <a href="https://github.com/Sujan2332/Portfolio">Portfolio</a>
-Personal site rebuilt from the ground up after an audit pass — stripped fabricated content, replaced vague skill bars with honest categorical tiers, wired a real contact form.
+### <a href="https://github.com/Sujan2332/BMS-Alerter">BMS-Alerter</a>
+A Telegram bot that watches BookMyShow for a specific film, theatre, and time window, and alerts the moment tickets go live.
 
-`React` `TypeScript` `Vite` `Tailwind`
+`Node.js` `Puppeteer` `Telegram Bot API`
 
-Shipped with a skip link, reduced-motion support, JSON-LD, and a sitemap — the parts of a portfolio that don't show up in a screenshot.
+**Why it's interesting:** the actual engineering problem wasn't parsing showtimes — it was staying invisible to Cloudflare's bot detection. Solved with stealth-mode headless Chrome, session capture and replay, and a fallback in-page fetch path, running continuously on a free-tier host.
 
 </td>
 <td width="50%" valign="top">
 
-### Vastra Atelier <sub>(in progress)</sub>
-Luxury e-commerce UI for a saree brand, spanning a full product-listing → product-detail → account journey across three distinct themes.
+### <a href="https://github.com/Sujan2332/Portfolio">Portfolio</a>
+Personal site taken through a full audit pass — fabricated content stripped, vague skill percentages replaced with honest categorical tiers, a real contact form wired in.
 
-`React` `Vite` `TypeScript` `Tailwind` `shadcn/ui`
+`React` `TypeScript` `Vite` `Tailwind`
 
-The interesting problem here is design-system discipline: one component tree, three visual identities, zero duplicated logic.
+**Why it's interesting:** shipped with a skip link, reduced-motion support, JSON-LD, and a sitemap — the parts of a portfolio site that never show up in a screenshot but are the actual difference between "built" and "finished."
 
 </td>
 </tr>
@@ -138,13 +121,93 @@ The interesting problem here is design-system discipline: one component tree, th
 
 <br/>
 
-## Client Work
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2px"/>
 
-Production frontend work delivered under NDA-scoped client engagements — described here at the level that's shareable:
+## Cloud & Infrastructure
 
-- **B2B SaaS marketing platform** — 60+ page Astro site engineered around Core Web Vitals and technical SEO from the metadata layer up.
-- **Ground-up platform rebuild** — a full rebuild rather than a migration, on Astro/GCP, when the existing foundation wasn't worth carrying forward.
-- **E-commerce checkout & account ownership** — full module ownership across 800+ stories and 300+ resolved defects on a large-scale retail platform.
+AWS isn't a badge on this profile — it's the storage layer in production code. **Something**'s upload pipeline runs through the AWS SDK v3 `S3Client` and `multer-s3`, with IAM-scoped credentials resolved from environment config and object keys generated per-request rather than per-upload — the kind of detail that only matters once real users are overwriting each other's files.
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=aws,nodejs,express,mongodb,jest&theme=dark" />
+</div>
+
+<br/>
+
+## Development Workflow
+
+<table>
+<tr><td width="50%" valign="top">
+
+**Build & Test**
+Vite for the frontend build loop; Jest for unit coverage where the logic is worth protecting from regressions, not everywhere by default.
+
+</td><td width="50%" valign="top">
+
+**Ship & Track**
+Git and GitHub for version control and review; Jira for planning and defect tracking on client engagements; Postman for API contract verification before a frontend ever touches an endpoint.
+
+</td></tr>
+</table>
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=vite,git,github,jira,postman,npm&theme=dark" />
+</div>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2px"/>
+
+## Stack
+
+<table>
+<tr>
+<td valign="top" width="25%">
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=react,astro,ts,js,html,css&theme=dark" />
+
+</td>
+<td valign="top" width="25%">
+
+**Backend**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark" />
+
+</td>
+<td valign="top" width="25%">
+
+**Cloud & Testing**
+
+<img src="https://skillicons.dev/icons?i=aws,jest&theme=dark" />
+
+</td>
+<td valign="top" width="25%">
+
+**Deployment**
+
+<img src="https://skillicons.dev/icons?i=vercel,render,netlify&theme=dark" />
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2px"/>
+
+## Now Building
+
+Currently working on **Vastra Atelier** — an e-commerce UI for a luxury saree brand spanning a full product-listing → product-detail → account journey, across a three-way light/dark/ivory theme system. The interesting constraint isn't any single page — it's keeping one component tree honest across three visual identities without duplicating logic per theme.
+
+```
+[ shipped ]    checkout & account ownership on a large-scale retail platform
+[ shipped ]    S3-backed media pipeline with context-aware key generation
+[ shipped ]    real-time chat infra rebuilt into a separated client/server architecture
+[ building ]   multi-theme design system architecture (Vastra Atelier)
+[ exploring ]  server components & partial hydration in Astro/Next
+[ exploring ]  queue-backed automation beyond single-process bots
+```
 
 <br/>
 
@@ -169,52 +232,23 @@ Production frontend work delivered under NDA-scoped client engagements — descr
 
 <img src="https://raw.githubusercontent.com/Sujan2332/Sujan2332/output/github-contribution-grid-snake.svg" width="100%"/>
 
-*Generated by the `platane/snk` GitHub Action — see setup note at the bottom of this file.*
-
 </details>
 
 <br/>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2px"/>
 
-## Roadmap
-
-```
-[ done ]      production real-time systems (Socket.IO, long-poll bots)
-[ done ]      accessibility & performance as a default, not an add-on
-[ building ]  multi-theme design system architecture (Vastra Atelier)
-[ exploring ] server components & partial hydration patterns in Astro/Next
-[ exploring ] queue-backed automation, beyond single-process bots
-```
-
-<br/>
-
 ## Let's Build Something
 
-Open to Frontend and Full-Stack roles on product-focused teams — especially where the interface is treated as core product surface, not a layer bolted onto a backend.
+Open to Frontend and Full-Stack roles on product-focused teams — especially where the interface is core product surface, not a layer bolted onto someone else's backend.
 
 <div align="center">
 
 <a href="https://sai-sujan-s-portfolio.onrender.com/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=A78BFA" /></a>
 <a href="https://github.com/Sujan2332"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" /></a>
 
-</div>
+<br/><br/>
 
-<br/>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2px"/>
-
-<div align="center">
 <sub>Profile views: <img src="https://komarev.com/ghpvc/?username=Sujan2332&style=flat-square&color=A78BFA&label=" height="14"/></sub>
+
 </div>
-
-<br/>
-
-<details>
-<summary><sub>Setup notes (remove before publishing, or keep — your call)</sub></summary>
-
-- **Snake animation**: needs a GitHub Action in this repo to generate the SVG on an `output` branch. Add `.github/workflows/snake.yml` using the `platane/snk` action, scheduled daily — it'll populate the URL above automatically once it runs once.
-- **Private contribution count**: `count_private=true` on the stats card only works if this README lives in a public repo owned by this account and you haven't restricted stats visibility in GitHub settings.
-- **Activity graph / streak stats**: both are community-hosted services; if either goes down, swap the image URL — the rest of the layout is unaffected.
-
-</details>

@@ -10,6 +10,7 @@
 
 <a href="https://sai-sujan-s-portfolio.onrender.com/"><img src="https://img.shields.io/badge/PORTFOLIO-sai--sujan--s--portfolio.onrender.com-A78BFA?style=for-the-badge&logoColor=white" alt="Portfolio"/></a>
 <a href="https://github.com/Sujan2332"><img src="https://img.shields.io/badge/GITHUB-Sujan2332-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/sai-sujan-s/"><img src="https://img.shields.io/badge/LINKEDIN-sai--sujan--s-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
 </div>
 
@@ -246,6 +247,7 @@ Open to Frontend and Full-Stack roles on product-focused teams — especially wh
 
 <a href="https://sai-sujan-s-portfolio.onrender.com/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=A78BFA" /></a>
 <a href="https://github.com/Sujan2332"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/sai-sujan-s/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 <br/><br/>
 

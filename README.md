@@ -2,7 +2,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&duration=3000&pause=1500&color=0A66C2&center=true&vCenter=true&width=680&height=50&lines=Sai+Sujan+S;Full-Stack+Engineer+%E2%80%94+React+%C2%B7+Node+%C2%B7+AWS;Bengaluru%2C+India" alt="typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&duration=3000&pause=1500&color=A78BFA&center=true&vCenter=true&width=680&height=50&lines=Sai+Sujan+S;Full-Stack+Engineer+%E2%80%94+React+%C2%B7+Node+%C2%B7+AWS;Bengaluru%2C+India" alt="typing animation" />
 
 <p><sub>Production commerce systems, real-time infrastructure, and interfaces built to be measured, not just shipped.</sub></p>
 
@@ -129,7 +129,9 @@ Personal site taken through a full audit pass — fabricated content stripped, v
 AWS isn't a badge on this profile — it's the storage layer in production code. **Something**'s upload pipeline runs through the AWS SDK v3 `S3Client` and `multer-s3`, with IAM-scoped credentials resolved from environment config and object keys generated per-request rather than per-upload — the kind of detail that only matters once real users are overwriting each other's files.
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=aws,nodejs,express,mongodb,jest&theme=dark" />
+
+<img height="48" src="https://skillicons.dev/icons?i=aws,nodejs,express,mongodb,jest&theme=dark" />
+
 </div>
 
 <br/>
@@ -145,13 +147,15 @@ Vite for the frontend build loop; Jest for unit coverage where the logic is wort
 </td><td width="50%" valign="top">
 
 **Ship & Track**
-Git and GitHub for version control and review; Jira for planning and defect tracking on client engagements; Postman for API contract verification before a frontend ever touches an endpoint.
+Git and GitHub for version control and review; Jira for planning and defect tracking on client engagements; Postman for API contract verification before a frontend ever touches an endpoint; Figma for translating design handoffs into pixel-accurate builds.
 
 </td></tr>
 </table>
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=vite,git,github,jira,postman,npm&theme=dark" />
+
+<img height="48" src="https://skillicons.dev/icons?i=vite,git,github,jira,postman,figma,npm&theme=dark" />
+
 </div>
 
 <br/>
@@ -160,34 +164,41 @@ Git and GitHub for version control and review; Jira for planning and defect trac
 
 ## Stack
 
-<table>
+<table width="100%">
 <tr>
-<td valign="top" width="25%">
+<td valign="top" width="20%">
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,astro,ts,js,html,css&theme=dark" />
+<img height="46" src="https://skillicons.dev/icons?i=react,astro,ts,js,html,css&theme=dark" />
 
 </td>
-<td valign="top" width="25%">
+<td valign="top" width="20%">
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark" />
+<img height="46" src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark" />
 
 </td>
-<td valign="top" width="25%">
+<td valign="top" width="20%">
 
 **Cloud & Testing**
 
-<img src="https://skillicons.dev/icons?i=aws,jest&theme=dark" />
+<img height="46" src="https://skillicons.dev/icons?i=aws,jest&theme=dark" />
 
 </td>
-<td valign="top" width="25%">
+<td valign="top" width="20%">
 
 **Deployment**
 
-<img src="https://skillicons.dev/icons?i=vercel,render,netlify&theme=dark" />
+<img height="46" src="https://skillicons.dev/icons?i=vercel,render,netlify&theme=dark" />
+
+</td>
+<td valign="top" width="20%">
+
+**Design**
+
+<img height="46" src="https://skillicons.dev/icons?i=figma&theme=dark" />
 
 </td>
 </tr>

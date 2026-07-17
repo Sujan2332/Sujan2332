@@ -2,7 +2,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&duration=3000&pause=1500&color=A78BFA&center=true&vCenter=true&width=680&height=50&lines=Sai+Sujan+S;Full-Stack+Engineer+%E2%80%94+React+%C2%B7+Node+%C2%B7+AWS;Bengaluru%2C+India" alt="typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&duration=3000&pause=1500&color=0A66C2&center=true&vCenter=true&width=680&height=50&lines=Sai+Sujan+S;Full-Stack+Engineer+%E2%80%94+React+%C2%B7+Node+%C2%B7+AWS;Bengaluru%2C+India" alt="typing animation" />
 
 <p><sub>Production commerce systems, real-time infrastructure, and interfaces built to be measured, not just shipped.</sub></p>
 
